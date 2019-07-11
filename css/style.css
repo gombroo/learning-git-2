@@ -62,3 +62,31 @@ ul li a:hover {
 
 
 /* Header */
+
+.header {
+  border-bottom: 2px solid #34495e;
+}
+
+.song-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artist-title {
+  font-size: 2.5em;
+  line-height: 1;
+  margin: 0;
+  color: #34495e;
+}
+
+.song-title {
+  color: #e74c3c;
+}
+
+.album-info {
+  color: #2c3e50;
+  margin: 0;
+}
