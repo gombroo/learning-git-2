@@ -95,3 +95,9 @@ ul li a:hover {
 
 
 /* Song */
+
+.song {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
