@@ -101,3 +101,7 @@ ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.song p {
+  font-weight: bold;
+}
