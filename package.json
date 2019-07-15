@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7"
+  },
+  "dependencies": {
+    "nu-html-checker": "^0.1.0"
   }
 }

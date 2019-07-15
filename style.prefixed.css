@@ -1,0 +1,119 @@
+/* Global */
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.7;
+  font-family: 'DM Sans', sans-serif;
+  color: #34495e;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 50px 0;
+}
+
+
+/* Navigation */
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.navigation {
+  padding: 0 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: #ecf0f1;
+  border-bottom: 2px solid #34495e;
+  border-top: 2px solid #34495e;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;;
+}
+
+ul li {
+  display: inline-block;
+  padding: 5px 20px;
+}
+
+ul li a {
+  color: #e74c3c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+ul li a:hover {
+  color: #27ae60;
+}
+
+
+/* Header */
+
+.header {
+  border-bottom: 2px solid #34495e;
+}
+
+.song-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+.artist-title {
+  font-size: 2.5em;
+  line-height: 1;
+  margin: 0;
+  color: #34495e;
+}
+
+.song-title {
+  color: #e74c3c;
+}
+
+.album-info {
+  color: #2c3e50;
+  margin: 0;
+}
+
+
+/* Song */
+
+.song {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.song p {
+  font-weight: bold;
+}
